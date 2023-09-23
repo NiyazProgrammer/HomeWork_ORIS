@@ -1,0 +1,15 @@
+.footer{
+    background-color: transparent;
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:20px ;
+    font-size: 14px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.dividing_strip{
+    border-right: 1px solid #e0e0e0;
+    margin-right: 7px; 
+    margin-left: 5px;
+}

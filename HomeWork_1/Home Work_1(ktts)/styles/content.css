@@ -1,0 +1,239 @@
+.main_block_statistic{
+    width: 1190px;
+    height: 2402px;
+
+}
+.main_block_statistic{
+    width: 1190px;
+    height: 2402px;
+
+}
+.block_statistic{
+    width: 1190px;
+    height: 2150px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+.block_forest_wonders_pictuare{
+    width: 1190px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.forest_wonders_pictuare{
+    width: 970px;
+    height: 250px;
+}
+.section_for_level{
+    width: 507px;
+    height: 680px;
+    padding: 25px;
+    margin: 21px 17px;
+    background: #fbfbfb;
+    border: 1px solid #dfdfdf;
+}
+.header_section_for_level{
+    width: 261px;
+    height: 80px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: transparent;
+    color: #47463f;
+}
+.list_top_10_players{
+    width: 507px;
+    height: 546px;
+    list-style-type: none;
+}
+.list_top_10_players a{
+    text-decoration: none;
+}
+.list_top_10_players li{
+    width: 467px;
+    height: 51px;
+    padding: 5px 0px 5px 40px;
+    margin-bottom: 1px;
+    color: rgba(0, 0, 0, .8);
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    background: transparent;
+    box-sizing: border-box;
+    padding: 5px 0;
+    position: relative;
+    border-bottom: 1px solid #B1B1B1;
+}
+.list_top_10_players a{
+    color: #167ac6;
+}
+.block_element_1{
+    width: 452px;
+    height: 40px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.left_element_1{
+    width: 226px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.right_elements_1{
+    width: 226px;
+    height: 21px;
+    display: flex;
+    justify-content: end;
+}
+.right_elements_1 span{
+    margin-left: 5px;
+}
+.left_element_1 a:hover{
+    text-decoration: underline;
+    color: #1c93e3;
+}
+.detail{
+    width: 624px;
+    height: 21px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: none ;
+    margin-top: 15px;
+}
+
+.label_place_1{
+    width: 39px;
+    height: 40px;
+    background-color: gold;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: -40px;
+    border-radius: 100px;
+}
+.label_place_2{
+    width: 39px;
+    height: 40px;
+    background-color: silver;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: -40px;
+    border-radius: 100px;
+}
+.label_place_3{
+    width: 39px;
+    height: 40px;
+    background-color: #E8B17A;;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: -40px;
+    border-radius: 100px;
+}
+.label_place_4_10{
+    width: 39px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: -40px;
+    border-radius: 100px;
+}
+.clan_name_state{
+    width: 70px;
+    height: 21px;
+    color: #9A1AFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_clan_1{
+    width: 32px;
+    height: 32px;
+    background-color: #62BAE5;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.icon_clan_2{
+    width: 32px;
+    height: 32px;
+    background-color: #9A1AFB;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.icon_clan_3{
+    width: 32px;
+    height: 32px;
+    background-color: #2917EC;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.icon_clan_4{
+    width: 32px;
+    height: 32px;
+    background-color: #FFD700;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.icon_clan_5{
+    width: 32px;
+    height: 32px;
+    background-color: #FC0000;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.icon_clan_6{
+    width: 32px;
+    height: 32px;
+    background-color: #E90BED;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.icon_clan_7{
+    width: 32px;
+    height: 32px;
+    background-color: #FAD105;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.icon_clan_8{
+    width: 32px;
+    height: 32px;
+    background-color: #A302FF;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.icon_clan_9{
+    width: 32px;
+    height: 32px;
+    background-color: #FF0000;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.icon_clan_10{
+    width: 32px;
+    height: 32px;
+    background-color: #FFFF00;
+    border-radius: 100px;
+    margin: 0px 10px 0px 10px;
+}
+
