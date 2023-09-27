@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ryG4E8IxF4PTtE4WVkGnFewwfH2vu4JvqvRDq4whraj+9hVvxGZbucQTdqY+3e8UX5zS8N6VEvsFxNxEMTJpzQ==",
+  "success": true,
+  "projectFilePath": "/Users/niyazrizvanov/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "/Users/niyazrizvanov/.nuget/packages/microsoft.netcore.platforms/8.0.0-preview.7.23375.6/microsoft.netcore.platforms.8.0.0-preview.7.23375.6.nupkg.sha512"
+  ],
+  "logs": []
+}
