@@ -21,6 +21,7 @@ class Program
 
             Console.WriteLine("Нажми на любую клавишу");
             Console.ReadKey();
+            Console.WriteLine();
             server.StopServer();
             
         }

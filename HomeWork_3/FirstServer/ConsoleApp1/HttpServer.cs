@@ -9,107 +9,34 @@ public class HttpServer
 {
     private readonly AppSettings _config;
     private HttpListener _server = new HttpListener();
+    private RequestHandler _handler;
+
     public HttpServer(AppSettings config)
     {
         _config = config;
+        _handler = new RequestHandler(_config);
     }
 
     public async Task StartAsync()
     {
         
         _server.Prefixes.Add($"http://{_config.Address}:{_config.Port}/");
+        _server.Start();
+        Console.WriteLine("Сервер успешно запущен");
 
-        try
+        while (_server.IsListening)
         {
-            _server.Start();
-            Console.WriteLine("Сервер успешно запущен");
-
-            while (_server.IsListening)
-            {
-                var context = await _server.GetContextAsync();
-                await HandleRequestAsync(context);
-                
-                Console.WriteLine("Запрос обработан");
-            }
+            var context = await _server.GetContextAsync();
+            await _handler.HandleRequestAsync(context);
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Server error: {ex.Message}");
-        }
-        finally
-        {
-            _server.Stop();
-        }
+        Console.WriteLine("Запрос обработан");
     }
 
     public void StopServer()
     {
+        if (_server != null && _server.IsListening)
+        {
             _server.Stop();
-            Console.WriteLine("Сервер остановлен");
-    }
-
-    private async Task HandleRequestAsync(HttpListenerContext context)
-    {
-        var uri = context.Request.Url;
-        var filePath = GetFilePath(uri);
-
-        try
-        {
-            var response = context.Response;
-            var path = File.ReadAllBytes(filePath);
-            
-            if (filePath.Contains("svg")) response.Headers.Add("Content-Type", "image/svg+xml");
-           
-             
-            response.ContentLength64 = path.Length;
-            
-            using Stream output = response.OutputStream;
-
-            await output.WriteAsync(path);
-            await output.FlushAsync();
-            
         }
-        catch (FileNotFoundException)
-        {
-            Serve404Page(context);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error: {ex.Message}");
-        }
-    }
-
-    private string GetFilePath(Uri uri)
-    {
-        var filePath = uri.AbsolutePath;
-        
-        if (filePath.StartsWith("/static/buttleNet") && filePath.Length == 17)
-        {
-            filePath = uri.AbsolutePath.Substring(1) + "/index.html";
-        }
-        else if (filePath.StartsWith("/static/buttleNet"))
-        {
-            filePath = uri.AbsolutePath.Substring(1);
-        }
-        else
-        {
-            filePath = _config.StaticFilesPath + "/buttleNet" + uri.AbsolutePath.Substring(7);
-        }
-        
-        Console.WriteLine(filePath);
-        
-        return filePath;
-    }
-
-    private void Serve404Page(HttpListenerContext context)
-    {
-        var path = File.ReadAllBytes(Path.Combine(_config.StaticFilesPath, "page404.html"));
-        var response = context.Response;
-        
-        response.ContentLength64 = path.Length;
-        using Stream output = response.OutputStream;
-
-        output.WriteAsync(path); 
-        output.FlushAsync();
     }
 }

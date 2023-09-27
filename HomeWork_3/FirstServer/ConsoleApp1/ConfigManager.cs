@@ -10,8 +10,6 @@ public static class ConfigManager
     {
         if (_config == null)
             _config = ConfigLoader.LoadConfig(@"appSetting.json");
-
-        
         return _config;
     }
 }
