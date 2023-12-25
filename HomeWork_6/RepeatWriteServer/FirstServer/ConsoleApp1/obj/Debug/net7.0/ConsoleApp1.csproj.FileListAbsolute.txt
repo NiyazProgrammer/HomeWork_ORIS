@@ -89,3 +89,21 @@
 /Users/niyazrizvanov/Local Home Work for ОРИС/HomeWork_5/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.genruntimeconfig.cache
 /Users/niyazrizvanov/Local Home Work for ОРИС/HomeWork_5/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ref/ConsoleApp1.dll
 /Users/niyazrizvanov/Local Home Work for ОРИС/HomeWork_5/RepeatWriteServer/FirstServer/ConsoleApp1/bin/Debug/net7.0/Configuration/appSetting.json
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/bin/Debug/net7.0/ConsoleApp1
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/bin/Debug/net7.0/Configuration/appSetting.json
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/bin/Debug/net7.0/ConsoleApp1.deps.json
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/bin/Debug/net7.0/ConsoleApp1.runtimeconfig.json
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/bin/Debug/net7.0/ConsoleApp1.dll
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/bin/Debug/net7.0/ConsoleApp1.pdb
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.csproj.AssemblyReference.cache
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.AssemblyInfo.cs
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.csproj.CopyComplete
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.dll
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/refint/ConsoleApp1.dll
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.pdb
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.genruntimeconfig.cache
+/Users/niyazrizvanov/HomeWork_ORIS/HomeWork_6/RepeatWriteServer/FirstServer/ConsoleApp1/obj/Debug/net7.0/ref/ConsoleApp1.dll

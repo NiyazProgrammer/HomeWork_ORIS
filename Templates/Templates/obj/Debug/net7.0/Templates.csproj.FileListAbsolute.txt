@@ -1,0 +1,15 @@
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/bin/Debug/net7.0/Templates
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/bin/Debug/net7.0/Templates.deps.json
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/bin/Debug/net7.0/Templates.runtimeconfig.json
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/bin/Debug/net7.0/Templates.dll
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/bin/Debug/net7.0/Templates.pdb
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/Templates.csproj.AssemblyReference.cache
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/Templates.GeneratedMSBuildEditorConfig.editorconfig
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/Templates.AssemblyInfoInputs.cache
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/Templates.AssemblyInfo.cs
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/Templates.csproj.CoreCompileInputs.cache
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/Templates.dll
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/refint/Templates.dll
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/Templates.pdb
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/Templates.genruntimeconfig.cache
+/Users/niyazrizvanov/HomeWork_ORIS/Templates/Templates/obj/Debug/net7.0/ref/Templates.dll
