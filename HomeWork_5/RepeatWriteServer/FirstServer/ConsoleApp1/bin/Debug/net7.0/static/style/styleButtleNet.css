@@ -1,0 +1,242 @@
+body{
+    background-color: #15171e;
+    margin: 0px;
+    width: 1431px;
+    height: 900px;
+}
+.container{
+    width: 1431px;
+    height: 800px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    flex-direction: column;
+}
+.main_logo{
+    width: 240px;
+    height: 72px;
+    margin-bottom:  20px;
+    color: #fff;
+    background: transparent;
+}
+.main_logo img{
+    width: 240px;
+    height: 72px;
+}
+.block_authorization{
+    width: 416px;
+    height: 920px;
+    padding: 24px 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block_text_authorization{
+    width: 416px;
+    height: 36px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: "Object Sans", "Arial", "Helvetica", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+}
+.block_social_login_1{
+    width: 336px;
+    height: 72px;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_social_login_2{
+    width: 336px;
+    height: 72px;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 13px;
+    background: #fff;
+    border: none;
+}
+.blocl_logo{
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    background: transparent;
+    text-decoration: none;
+    margin: 0px 12px;
+}
+.logos{
+    width: 17px;
+    height: 18px;
+}
+.another_choice{
+    width: 416px;
+    height: 21px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    color: #a1a2a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: "Noto Sans", "Object Sans", sans-serif;
+}
+form{
+    width: 416px;
+    height: 189px;
+}
+.block_input{
+    width: 416px;
+    height: 103px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.block_input_email{
+    width: 416px;
+    height: 46px;
+    margin-bottom: 10px;
+}
+.block_input_password{
+    width: 416px;
+    height: 46px;
+}
+.input_email_and_password{
+    width: 390px;
+    height: 38px;
+    padding: 0px 12px;
+    border: 1px solid #6b6c70;
+    background-color: #171920;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "Object Sans", "Arial", "Helvetica", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+.input_email_and_password:hover{
+    border: 1px solid #dadadb;
+
+}
+::placeholder {
+    font-size: 16px;
+    font-family: "Object Sans", "Arial", "Helvetica", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    color: #a2a3a5; 
+    font-weight: 400;
+  }
+  .block_for_submit{
+    width: 416px;
+    height: 51px;
+    margin-top: 35px;
+    margin-bottom: 11px;
+  }
+  .submit_autorization{
+    width: 412px;
+    height: 36px;
+    margin: 5px 0px; 
+    border-radius: 4px;
+    background-color: #0074e0;
+    border: 0px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Object Sans", "Arial", "Helvetica", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+  }
+  .submit_autorization:hover{
+    border: 2px solid #439bef;
+  }
+  .block_free_autorization{
+    width: 416px;
+    height: 48px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  .ref_free_autorization{
+    color: #158eff;
+    text-decoration: none;
+    font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", serif;
+    font-size: 16px;
+    font-weight:  700;
+    text-align: center;
+  }
+  .ref_free_autorization:hover,
+  .ref_can_not_login:hover{
+    text-decoration: underline;
+    color: #47a3fb;
+    cursor: pointer;
+  }
+  .block_can_not_login{
+    width: 416px;
+    height: 48px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+  }
+.ref_can_not_login{
+    color: #158eff;
+    text-decoration: none;
+    font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", serif;
+    font-size: 16px;
+    font-weight:  700;
+    text-align: center;
+}
+footer{
+    width: 1431px;
+    height: 110px;
+    background: transparent;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+.main_block_for_refs_footer{
+    width: 1200px;
+    height: 110px;
+    background: transparent;
+}
+.block_for_refs_footer{
+    width: 700px;
+    height: 90px;
+    padding: 10px 0px;
+    margin: 0px 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.block_for_refs_footer a{
+    margin-left: 10px;
+    margin-right: 7px;
+}
+.block_refs_1{
+    margin: 10px;
+}
+.block_refs_2{
+    margin-bottom: 15px;
+}
+.label_footer{
+    font-family: "Blizzard", "Arial", "Helvetica", sans-serif;
+    color: #5c5d61;
+}
+.refs_footer{
+    text-decoration: none;
+    color: #b7b7b9;
+    font-family:  "Object Sans", "Arial", "Helvetica", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+.refs_footer:hover{
+    color: white;
+}
